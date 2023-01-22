@@ -1,7 +1,7 @@
 const CSS = `
 @font-face {
   font-family: "Open Dyslexic";
-  src: url('./fonts/OpenDyslexic-Regular.woff') format('woff');
+  src: url('https://github.com/aleksnyder/dyslexic-fontover/blob/main/fonts/OpenDyslexic-Regular.woff') format('woff');
 }
 body {
   font-family: "Open Dyslexic";
