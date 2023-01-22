@@ -1,0 +1,2 @@
+# Dyslexic Fontover
+Give a site a "Dyslexic Fontover" with this firefox extension.  Using the [https://opendyslexic.org/](Open Dyslexic), you can change the font on a site to something easier to read with the click of a button.

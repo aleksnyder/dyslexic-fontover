@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "dyslexic-fontover",
+  "version": "1.0",
+  "description": "Replaces font family with Dyslexic friendly font.",
+  "homepage_url": "https://github.com/aleksnyder/dyslexic-fontover/tree/master/",
+  "icons": {
+    "48": "icons/dyslexic-fontover-48.png"
+  },
+
+  "background": {
+    "scripts": ["dyslexic-fontover.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icons/dyslexic-fontover-32.png",
+    "browser_style": true
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "web_accessible_resources": [
+    "fonts/OpenDyslexic-Bold-Italic.woff",
+    "fonts/OpenDyslexic-Bold.woff",
+    "fonts/OpenDyslexic-Italic.woff",
+    "fonts/OpenDyslexic-Regular.woff"
+  ]
+}
